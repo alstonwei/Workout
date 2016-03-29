@@ -7,8 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		24CA49FB1CA8D97300AC3D43 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24CA49FA1CA8D97300AC3D43 /* HomeViewController.swift */; };
+		24CA49FD1CA8DE7000AC3D43 /* Workout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24CA49FC1CA8DE7000AC3D43 /* Workout.swift */; };
+		24CA49FF1CAA7F7E00AC3D43 /* SoundPlayVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24CA49FE1CAA7F7E00AC3D43 /* SoundPlayVC.swift */; };
+		24CA4A011CAA7FDF00AC3D43 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 24CA4A001CAA7FDF00AC3D43 /* AVFoundation.framework */; };
 		24E18DB01CA8BF5100CB91FE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24E18DAF1CA8BF5100CB91FE /* AppDelegate.swift */; };
-		24E18DB21CA8BF5100CB91FE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24E18DB11CA8BF5100CB91FE /* ViewController.swift */; };
 		24E18DB51CA8BF5100CB91FE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 24E18DB31CA8BF5100CB91FE /* Main.storyboard */; };
 		24E18DB81CA8BF5100CB91FE /* WWWorkoutProject.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 24E18DB61CA8BF5100CB91FE /* WWWorkoutProject.xcdatamodeld */; };
 		24E18DBA1CA8BF5100CB91FE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 24E18DB91CA8BF5100CB91FE /* Assets.xcassets */; };
@@ -37,9 +40,12 @@
 
 /* Begin PBXFileReference section */
 		19812F5A1371200936BCED85 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		24CA49FA1CA8D97300AC3D43 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		24CA49FC1CA8DE7000AC3D43 /* Workout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Workout.swift; sourceTree = "<group>"; };
+		24CA49FE1CAA7F7E00AC3D43 /* SoundPlayVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SoundPlayVC.swift; sourceTree = "<group>"; };
+		24CA4A001CAA7FDF00AC3D43 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		24E18DAC1CA8BF5100CB91FE /* WWWorkoutProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WWWorkoutProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		24E18DAF1CA8BF5100CB91FE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		24E18DB11CA8BF5100CB91FE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		24E18DB41CA8BF5100CB91FE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		24E18DB71CA8BF5100CB91FE /* WWWorkoutProject.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = WWWorkoutProject.xcdatamodel; sourceTree = "<group>"; };
 		24E18DB91CA8BF5100CB91FE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -60,6 +66,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				24CA4A011CAA7FDF00AC3D43 /* AVFoundation.framework in Frameworks */,
 				83913CB4676A3F8655893780 /* Pods.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -109,7 +116,6 @@
 				24E18DE11CA8CEF900CB91FE /* UI */,
 				24E18DE01CA8CEEE00CB91FE /* Model */,
 				24E18DAF1CA8BF5100CB91FE /* AppDelegate.swift */,
-				24E18DB11CA8BF5100CB91FE /* ViewController.swift */,
 				24E18DB31CA8BF5100CB91FE /* Main.storyboard */,
 				24E18DB91CA8BF5100CB91FE /* Assets.xcassets */,
 				24E18DBB1CA8BF5100CB91FE /* LaunchScreen.storyboard */,
@@ -140,6 +146,7 @@
 		24E18DE01CA8CEEE00CB91FE /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				24CA49FC1CA8DE7000AC3D43 /* Workout.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -148,6 +155,7 @@
 			isa = PBXGroup;
 			children = (
 				24E18DE21CA8CF2000CB91FE /* Home */,
+				24CA49FE1CAA7F7E00AC3D43 /* SoundPlayVC.swift */,
 			);
 			path = UI;
 			sourceTree = "<group>";
@@ -164,6 +172,7 @@
 		24E18DE31CA8CF2000CB91FE /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				24CA49FA1CA8D97300AC3D43 /* HomeViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -178,6 +187,7 @@
 		93833C8B8D07D90AC42B2A35 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				24CA4A001CAA7FDF00AC3D43 /* AVFoundation.framework */,
 				D969F69C1742CD0D2B8206E1 /* Pods.framework */,
 			);
 			name = Frameworks;
@@ -374,9 +384,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				24E18DB21CA8BF5100CB91FE /* ViewController.swift in Sources */,
 				24E18DB01CA8BF5100CB91FE /* AppDelegate.swift in Sources */,
 				24E18DB81CA8BF5100CB91FE /* WWWorkoutProject.xcdatamodeld in Sources */,
+				24CA49FB1CA8D97300AC3D43 /* HomeViewController.swift in Sources */,
+				24CA49FF1CAA7F7E00AC3D43 /* SoundPlayVC.swift in Sources */,
+				24CA49FD1CA8DE7000AC3D43 /* Workout.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
